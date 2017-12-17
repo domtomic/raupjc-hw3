@@ -7,9 +7,9 @@ namespace TodoApp.Models
 {
     public class IndexViewModel
     {
-        public List<TodoModel> TodoModels { get; set; }
+        public List<TodoViewModel> TodoModels { get; set; }
 
-        public IndexViewModel(List<TodoModel> todoModels)
+        public IndexViewModel(List<TodoViewModel> todoModels)
         {
             TodoModels = todoModels;
         }

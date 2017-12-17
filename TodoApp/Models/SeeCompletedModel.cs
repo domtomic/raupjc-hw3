@@ -7,9 +7,9 @@ namespace TodoApp.Models
 {
     public class SeeCompletedModel
     {
-        public List<TodoModel> TodoModels { get; set; }
+        public List<TodoViewModel> TodoModels { get; set; }
 
-        public SeeCompletedModel(List<TodoModel> todoModels)
+        public SeeCompletedModel(List<TodoViewModel> todoModels)
         {
             TodoModels = todoModels;
         }
